@@ -23,6 +23,7 @@
 		08DD20DC288285E30036FA84 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 08DD20DB288285E30036FA84 /* FirebaseFirestoreSwift */; };
 		08DD20DE288285E30036FA84 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 08DD20DD288285E30036FA84 /* FirebaseFunctions */; };
 		08DD20E02882B2510036FA84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08DD20DF2882B2510036FA84 /* GoogleService-Info.plist */; };
+		08DD20E22882DB5B0036FA84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD20E12882DB5B0036FA84 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		08986D542880648C00D9FBDA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		08986D56288064A600D9FBDA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		08DD20DF2882B2510036FA84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/Beavean/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08DD20E12882DB5B0036FA84 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				08986D3A2880630C00D9FBDA /* AppDelegate.swift */,
 				08986D3C2880630C00D9FBDA /* SceneDelegate.swift */,
+				08DD20E12882DB5B0036FA84 /* Constants.swift */,
 				08986D4F288063CB00D9FBDA /* Controllers */,
 				08986D4E2880639800D9FBDA /* Views */,
 				08986D432880630E00D9FBDA /* Assets.xcassets */,
@@ -194,6 +197,7 @@
 				08986D3B2880630C00D9FBDA /* AppDelegate.swift in Sources */,
 				08986D3D2880630C00D9FBDA /* SceneDelegate.swift in Sources */,
 				08986D552880648C00D9FBDA /* LoginViewController.swift in Sources */,
+				08DD20E22882DB5B0036FA84 /* Constants.swift in Sources */,
 				08986D57288064A600D9FBDA /* ChatViewController.swift in Sources */,
 				08986D532880646400D9FBDA /* RegisterViewController.swift in Sources */,
 			);

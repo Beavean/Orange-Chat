@@ -13,11 +13,10 @@ class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        UserDefaults.standard.set(true, forKey: "isDarkMode")
 
         titleLabel.text = ""
         var charIndex = 0.0
-        let titleTest = "🌕RANGE"
+        let titleTest = Constants.appName
         for letter in titleTest {
             Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false) { (timer) in
                 self.titleLabel.text?.append(letter)
