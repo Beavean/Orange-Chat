@@ -24,6 +24,9 @@
 		08DD20DE288285E30036FA84 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 08DD20DD288285E30036FA84 /* FirebaseFunctions */; };
 		08DD20E02882B2510036FA84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08DD20DF2882B2510036FA84 /* GoogleService-Info.plist */; };
 		08DD20E22882DB5B0036FA84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD20E12882DB5B0036FA84 /* Constants.swift */; };
+		08DD20E42882DEA20036FA84 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD20E32882DEA20036FA84 /* Message.swift */; };
+		08DD20E8288554DF0036FA84 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD20E6288554DF0036FA84 /* MessageCell.swift */; };
+		08DD20E9288554DF0036FA84 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08DD20E7288554DF0036FA84 /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		08986D56288064A600D9FBDA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		08DD20DF2882B2510036FA84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/Beavean/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		08DD20E12882DB5B0036FA84 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		08DD20E32882DEA20036FA84 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		08DD20E6288554DF0036FA84 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		08DD20E7288554DF0036FA84 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,9 @@
 				08986D3A2880630C00D9FBDA /* AppDelegate.swift */,
 				08986D3C2880630C00D9FBDA /* SceneDelegate.swift */,
 				08DD20E12882DB5B0036FA84 /* Constants.swift */,
-				08986D4F288063CB00D9FBDA /* Controllers */,
+				08DD20E52882DEAD0036FA84 /* Models */,
 				08986D4E2880639800D9FBDA /* Views */,
+				08986D4F288063CB00D9FBDA /* Controllers */,
 				08986D432880630E00D9FBDA /* Assets.xcassets */,
 				08DD20DF2882B2510036FA84 /* GoogleService-Info.plist */,
 				08986D452880630E00D9FBDA /* LaunchScreen.storyboard */,
@@ -95,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				08986D402880630C00D9FBDA /* Main.storyboard */,
+				08DD20E6288554DF0036FA84 /* MessageCell.swift */,
+				08DD20E7288554DF0036FA84 /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +117,14 @@
 				08986D56288064A600D9FBDA /* ChatViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		08DD20E52882DEAD0036FA84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08DD20E32882DEA20036FA84 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08986D472880630E00D9FBDA /* LaunchScreen.storyboard in Resources */,
+				08DD20E9288554DF0036FA84 /* MessageCell.xib in Resources */,
 				08DD20E02882B2510036FA84 /* GoogleService-Info.plist in Resources */,
 				08986D442880630E00D9FBDA /* Assets.xcassets in Resources */,
 				08986D422880630C00D9FBDA /* Main.storyboard in Resources */,
@@ -197,7 +215,9 @@
 				08986D3B2880630C00D9FBDA /* AppDelegate.swift in Sources */,
 				08986D3D2880630C00D9FBDA /* SceneDelegate.swift in Sources */,
 				08986D552880648C00D9FBDA /* LoginViewController.swift in Sources */,
+				08DD20E8288554DF0036FA84 /* MessageCell.swift in Sources */,
 				08DD20E22882DB5B0036FA84 /* Constants.swift in Sources */,
+				08DD20E42882DEA20036FA84 /* Message.swift in Sources */,
 				08986D57288064A600D9FBDA /* ChatViewController.swift in Sources */,
 				08986D532880646400D9FBDA /* RegisterViewController.swift in Sources */,
 			);
